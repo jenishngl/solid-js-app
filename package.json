@@ -1,0 +1,14 @@
+{
+  "name": "solid-js-app",
+  "version": "1.0.0",
+  "description": "Test Solid js app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidjs"
+  ],
+  "author": "9320926+jenishngl@users.noreply.github.com",
+  "license": "ISC"
+}
