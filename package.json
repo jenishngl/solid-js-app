@@ -3,12 +3,32 @@
   "version": "1.0.0",
   "description": "Test Solid js app",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "solidjs"
   ],
   "author": "9320926+jenishngl@users.noreply.github.com",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "esbuild": "^0.14.54",
+    "postcss": "^8.4.18",
+    "solid-start-node": "^0.2.0",
+    "vite": "^3.1.8"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.28.0",
+    "@solidjs/router": "^0.6.0",
+    "solid-js": "^1.6.2",
+    "solid-start": "^0.2.0",
+    "undici": "^5.11.0"
+  },
+  "engines": {
+    "node": ">=16.8"
+  }
 }
